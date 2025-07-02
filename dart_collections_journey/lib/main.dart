@@ -86,7 +86,7 @@ void task_3() {
   print('-----------------------');
 
   // Print the list of nouns
-  final Map<String, int> nounsMap = {};
+  final nounsMap = <String, int>{};
   for (String word in nounsList) {
     nounsMap[word] = word.length;
   }
@@ -94,7 +94,7 @@ void task_3() {
   print('-----------------------');
 
   // Print the length of each noun
-  final Map<String, int> tempNouns = {};
+  final tempNouns = <String, int>{};
   nounsMap.forEach((word, length) {
     if (length % 2 == 0) {
       tempNouns[word] = length;
