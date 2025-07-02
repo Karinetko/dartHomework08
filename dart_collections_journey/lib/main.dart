@@ -91,7 +91,7 @@ void task_3() {
     nounsMap[word] = word.length;
   }
   print('Nouns map: $nounsMap');
-  print('-----------------------');
+  print('----------------------');
 
   // Print the length of each noun
   final tempNouns = <String, int>{};
